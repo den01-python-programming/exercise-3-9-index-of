@@ -1,6 +1,6 @@
 # Exercise 3.9 Index of
 
-The exercise template contains a base that reads numbers from the user and adds them to a list. Reading is stopped once the user enters the number -1.
+Write a program that asks the user for strings and adds them to a list. The program stops reading when the user enters -1.
 
 Expand the program by adding a functionality that asks the user for a number, and reports that number's index in the list. If the number is not found, the program should not print anything.
 
