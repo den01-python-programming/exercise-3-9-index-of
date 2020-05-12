@@ -28,6 +28,6 @@ def test_exercise():
 
     src.exercise.main()
 
-    assert output[0:5] == ["","","","","Search for?","2 is at index 1"]
-    assert output[6:12] == ["","","","","Search for?","5 is at index 1","5 is at index 2"]
-    assert output[13:17] == ["","","","","Search for?"]
+    assert output == ["","","","","","Search for?","4 is at index 1",\
+                        "","","","","","Search for?","5 is at index 1","5 is at index 2",\
+                        "","","","","","Search for?"]
